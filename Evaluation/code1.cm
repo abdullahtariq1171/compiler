@@ -1,0 +1,19 @@
+int main() 
+{
+	int i;
+	cin >> i;
+	int j;
+	cin >> j;
+
+
+	int inc;
+	cin >> inc;
+
+	while(i>j)
+	{
+		cout << i ;
+		i = i + inc ;
+	}
+}
+
+
